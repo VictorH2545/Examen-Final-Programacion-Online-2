@@ -2,10 +2,10 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.1f1 (7197418f847b) revision 7444289'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 32596 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-11-17T05:07:56Z
+Date: 2025-11-21T06:25:54Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.1.1f1-x86_64\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.1.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -16,7 +16,7 @@ E:/XP TETRAS PASADOS/TETRA 7/Programacion Online 2/Abuelo Max Balazos
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51883
+51568
 -job-worker-count
 7
 -background-job-worker-count
@@ -62,12 +62,12 @@ E:/XP TETRAS PASADOS/TETRA 7/Programacion Online 2/Abuelo Max Balazos
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [36392]  Target information:
+Player connection [32516]  Target information:
 
-Player connection [36392]  * "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2877373473 [EditorId] 2877373473 [Version] 1048832 [Id] WindowsEditor(7,PCera-de-Vics) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32516]  * "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 3588650456 [EditorId] 3588650456 [Version] 1048832 [Id] WindowsEditor(7,PCera-de-Vics) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [36392] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [36392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32516] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,10 +79,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.1f1 (7197418f847b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.1f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/XP TETRAS PASADOS/TETRA 7/Programacion Online 2/Abuelo Max Balazos/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
@@ -93,46 +93,48 @@ Direct3D:
     App VRAM Budget: 7274 MB
     Driver:          32.0.15.7652
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1-x86_64/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.1f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Registered in 0.002087 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+- Loaded All Assemblies, in  0.397 seconds
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.408 seconds
-Domain Reload Profiling: 874ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.352 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (158ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (147ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (409ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (352ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
+		SetupLoadedEditorAssemblies (302ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (63ms)
+			InitializePlatformSupportModulesInManaged (80ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,140 +143,228 @@ Domain Reload Profiling: 874ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.027 seconds
+- Loaded All Assemblies, in  1.013 seconds
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.932 seconds
-Domain Reload Profiling: 1956ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1984ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (675ms)
-		LoadAssemblies (480ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (441ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (325ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (241ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (933ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (252ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (977ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (714ms)
+		SetupLoadedEditorAssemblies (723ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.56 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 221 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6199 unused Assets / (5.3 MB). Loaded Objects now: 6920.
-Memory consumption went from 171.5 MB to 166.1 MB.
-Total: 10.823600 ms (FindLiveObjects: 0.704000 ms CreateObjectMapping: 1.494800 ms MarkObjects: 5.519000 ms  DeleteObjects: 3.104500 ms)
+Unloading 6305 unused Assets / (4.5 MB). Loaded Objects now: 7028.
+Memory consumption went from 170.5 MB to 166.1 MB.
+Total: 11.305900 ms (FindLiveObjects: 0.933800 ms CreateObjectMapping: 1.130200 ms MarkObjects: 6.155100 ms  DeleteObjects: 3.084700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 269355.233504 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Main Camera Profile(URP).asset
-  artifactKey: Guid(ae86f759d8a224d49b6681ec201e0a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Main Camera Profile(URP).asset using Guid(ae86f759d8a224d49b6681ec201e0a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39616552d7e0fbee90ebfa44306cfcb2') in 0.0269142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/CandleFlame.mat
-  artifactKey: Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/CandleFlame.mat using Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f3012e83046ea115de334f5bb68ab2') in 1.6887307 seconds
+  Time since last request: 114636.648586 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Legacy Particles/Textures/ImpactSplashParticle.tif
+  artifactKey: Guid(a4948475d3e9a794cad36c380b171ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Legacy Particles/Textures/ImpactSplashParticle.tif using Guid(a4948475d3e9a794cad36c380b171ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b37777d909abae92936c14fede7e2a3') in 0.2143532 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
-  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '889e46a3f110a484537cc8cd423bf3f5') in 0.0015556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000075 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat
+  artifactKey: Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat using Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '704994e4cb2be677d8a86f611961dc81') in 4.8534552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.713482 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(c45891051bf1aa746acb10d42953899f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(c45891051bf1aa746acb10d42953899f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44dc8f9fc1d13ec06c4851bedc7bfe86') in 0.218774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 256
 
 ========================================================================
 Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.846 seconds
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1722ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (647ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6175 unused Assets / (5.4 MB). Loaded Objects now: 7110.
-Memory consumption went from 152.3 MB to 146.9 MB.
-Total: 9.295600 ms (FindLiveObjects: 0.557600 ms CreateObjectMapping: 0.622100 ms MarkObjects: 5.161200 ms  DeleteObjects: 2.953100 ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6304 unused Assets / (4.1 MB). Loaded Objects now: 7114.
+Memory consumption went from 171.9 MB to 167.8 MB.
+Total: 11.181800 ms (FindLiveObjects: 0.958400 ms CreateObjectMapping: 1.505100 ms MarkObjects: 5.873700 ms  DeleteObjects: 2.843400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.748 seconds
+- Loaded All Assemblies, in  0.984 seconds
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.654 seconds
-Domain Reload Profiling: 1401ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  1.043 seconds
+Domain Reload Profiling: 2027ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (457ms)
-		LoadAssemblies (345ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (180ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (654ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (235ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1044ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (478ms)
+		SetupLoadedEditorAssemblies (783ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6196 unused Assets / (4.3 MB). Loaded Objects now: 7000.
-Memory consumption went from 162.5 MB to 158.2 MB.
-Total: 6.812600 ms (FindLiveObjects: 0.618300 ms CreateObjectMapping: 0.793300 ms MarkObjects: 3.478800 ms  DeleteObjects: 1.921000 ms)
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6303 unused Assets / (4.5 MB). Loaded Objects now: 7117.
+Memory consumption went from 172.6 MB to 168.2 MB.
+Total: 13.322400 ms (FindLiveObjects: 1.112600 ms CreateObjectMapping: 0.946200 ms MarkObjects: 6.754000 ms  DeleteObjects: 4.508100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.972 seconds
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Fusion/Runtime/Fusion.Unity.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 2005ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (609ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (243ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1034ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6303 unused Assets / (4.4 MB). Loaded Objects now: 7120.
+Memory consumption went from 175.5 MB to 171.1 MB.
+Total: 11.489300 ms (FindLiveObjects: 1.022200 ms CreateObjectMapping: 1.377100 ms MarkObjects: 6.112700 ms  DeleteObjects: 2.975600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
